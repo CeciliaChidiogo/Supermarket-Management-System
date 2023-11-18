@@ -1,0 +1,219 @@
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    
+    background-color: rgb(251, 251, 237);
+}
+       
+.scroll-container{
+    overflow: auto;
+}
+.img {
+    height: 50px;
+    width: 50px;
+    background-color: darkgray;
+}
+
+.navbar {
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+
+}
+.nav {
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    color: #100b0f;
+    
+}
+.search {
+    border: none;
+    padding: 0px 5px;
+    border-radius: 50px;
+    color: #0b1115;
+    height: 35px;
+    width: 80%;
+
+}
+.header_search {
+    background-color: #df2f2f;
+    width: 100%;
+    height: 30%;
+    border-radius: 8px;
+    border: 1px;
+    display: flex;
+
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.headerbtn{
+    background-color: rgb(150, 186, 218);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    border: none;
+}
+button a{
+    color: rgb(16, 13, 13);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.headerbtn:hover {
+    background-color: rgb(235, 198, 198); /* Green */
+    color: white;
+    transition-duration: 0.4s;
+  }
+.menu {
+	width:20%;
+	height:100vh;
+    background-color: rgb(4, 4, 4);
+	float:left;
+    
+}
+.menu_box {
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu_box li{
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.menu_box a{
+    text-decoration: none;
+}
+.user {
+    padding-bottom: 30px;
+}
+.emp {
+    margin-right: 50px;
+}
+.user input {
+    width: 50%;
+    height: 30px;
+    
+}
+.emp input {
+    width: 100%;
+}
+.submit input{
+    background-color: rgb(182, 171, 194);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    width: 80px;
+    height: 30px;
+    margin-left: 100px;
+}
+
+
+.footer {
+    background-color: darkgray;
+    padding: 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: -10;
+    width: 100%;
+    margin-top: 50%;
+   
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+} 
+.footer a{ 
+    color: white;
+    text-decoration: none;
+}
+.login_box {
+    padding: 100px 50px 50px 600px;
+    
+}
+.table_box {
+    padding: 0px 0px 50px 450px; 
+}
+.table {
+    width: 80%;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: lightgray;}
+tr:hover 
+{background-color: rgb(147, 174, 198);}
+
+.emp_container {
+   
+    width: 50%;
+    padding: 50px 50px 50px 550px;
+    
+}
+.emp_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.admin_container{
+
+    padding: 50px 200px 50px 500px;
+}
+.home_box, .admin_box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.admin_box {
+    flex-wrap: wrap;
+    width: 100%;
+}
+.admin-login {
+    background-color: rgb(218, 225, 225);
+    width: 40%;
+    height: 80%;
+    margin-bottom: 30px;
+    border: 1px;
+    border-radius: 8px;
+    margin-right:50px ;
+    text-align: center;
+    color: black;
+}
+ .admin-login button {
+    border: none;
+    border-radius: 8px;
+    width: 50%;
+    height: 40px;
+    background-color: rgb(130, 190, 243);
+    margin-bottom: 30px;
+ }
+ .admin-login button:hover {
+    background-color: #9f9e9f; /* Green */
+    color: white;
+    transition-duration: 0.5s;
+  }
+.home-login{
+    margin-left:50px ;
+}
